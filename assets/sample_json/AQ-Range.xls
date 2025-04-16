@@ -1,0 +1,15 @@
+import pandas as pd
+
+# Define mock threshold ranges
+data = {
+    "Metric": ["pm01_ugm3", "pm25_ugm3", "pm10_ugm3", "voc_ppb", "co2_ppm", "humidity_RH", "temperature_C"],
+    "Low": [0, 0, 0, 0, 0, 20, 15],
+    "High": [12, 35, 50, 220, 800, 60, 25],
+    "Good_Color": ["#90EE90", "#90EE90", "#90EE90", "#90EE90", "#90EE90", "#90EE90", "#90EE90"],
+    "Moderate_Color": ["#FFD700", "#FFD700", "#FFD700", "#FFD700", "#FFD700", "#FFD700", "#FFD700"],
+    "Poor_Color": ["#FF6347", "#FF6347", "#FF6347", "#FF6347", "#FF6347", "#FF6347", "#FF6347"]
+}
+
+# Create DataFrame and save to Excel
+df = pd.DataFrame(data)
+df.to_excel('assets/AQ-Range.xlsx', index=False)

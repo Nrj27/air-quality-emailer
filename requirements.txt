@@ -1,0 +1,1 @@
+openpyxl  # For reading Excel files (used in AQ-Range.xls)

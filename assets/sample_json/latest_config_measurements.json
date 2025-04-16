@@ -1,0 +1,10 @@
+{
+    "timestamp": "2025-04-16T09:15:00",
+    "co2_ppm": 400,
+    "humidity_RH": 45.3,
+    "pm01_ugm3": 5.6,
+    "pm10_ugm3": 12.7,
+    "pm25_ugm3": 7.8,
+    "temperature_C": 22.5,
+    "voc_ppb": 100
+}
